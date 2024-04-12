@@ -1,0 +1,208 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --purple:#86469C ;
+    --pink: #FB9AD1; 
+    --white:#ffff;
+    --sky:#6196A6;
+    --heavyblue: #12343b;
+    --new:#003235;
+    --black:#353839;
+    --gray:#D3D3D3;
+    
+    
+}
+
+body {
+    
+    font-family: "Playfair Display", sans-serif;
+   
+    gap: 1.5rem;
+    height: 600vh;
+}
+header  .logo img{
+    margin-right: 4rem;
+    width: 30%;
+}
+
+header {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex; 
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 100px;
+    transition: 0.5s linear; 
+    
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--white);
+    height: 20px;
+    font-size: 23px;
+    font-weight: 900px;
+    padding: 9px 17px;
+    text-transform: capitalize;
+   
+    
+}
+nav a:hover{
+      background-color: var(--gray);
+      color: var(--heavyblue);
+      border-radius: 0.2rem;
+      transition: 0.2s all linear;
+}
+.section {
+    padding: 50px 100px;
+    margin-top: 100px; 
+    text-align: center;
+    
+}
+
+
+.overlay {
+    text-align: center;
+    margin-top: 100px;
+    padding:300px;
+   
+}
+
+
+.overlay h1 {
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom:20px; 
+    color: var(--white);
+    letter-spacing: 4px;
+    
+}
+
+.overlay p {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px; 
+    color: var(--new);
+    letter-spacing: 3px;
+    
+}
+.home {
+    
+    background: url(./craft1.jpg);
+    background-size: 100%;
+    background-position: initial;
+    background-repeat: no-repeat;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(17rem, auto));
+    align-items: center;
+    
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+
+.aboutimg img{
+    width: 60%;
+   margin: 120px 180px;
+    border-radius: 1%;
+}
+.abouttext h2{
+    font-size: 1.8rem;
+    color: var(--purple);
+    text-align: center;
+   margin: 2px 1px;
+}
+
+.abouttext p{
+    font-size: 0.938rem;
+    color: var(--black);
+    margin: 2.5rem 0 1.1rem;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+}
+.abouttext p span{
+    color: var(--pink);
+    font-weight: 700;
+}
+.abouttext{
+    margin-right: 60px;
+}
+
+.section-heading1{
+color: var(--purple);
+text-align: center;
+
+}
+
+.card-wrapper1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    align-items: center;
+    gap: 1.5rem;
+    margin: 2rem;
+    background: cover;
+}
+.card-wrapper1 .card1{
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.5rem;
+    box-shadow: var(--black);
+    background-color: var(--white);
+    background-size: contain;
+}
+.card-wrapper1 img{
+    width: 300px;
+    height: 250px;
+    object-fit: contain;
+    object-position: center;
+    padding: 20px;
+    border-radius: 0.5rem;
+}
+.card1 .homedecor{
+   
+     height: 250px;
+ }
+
+.card1 h2{
+    color: var(--sky);
+    text-align: center;
+    margin-bottom: 1.5rem ;
+    font-weight: 700;
+}
+.container1{
+   
+    background-color: rgb(236, 229, 229);
+    background-size: cover;
+}
+.card1 p{
+    text-align: justify;
+    color: var(--black);
+    font-size: 16px;
+    padding: 3px 2px;
+}
